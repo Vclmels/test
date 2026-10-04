@@ -71,8 +71,13 @@ FISH_GEAR_HOOK_GAR = 15
 FISH_GEAR_HOOK_ANGLER = 16
 FISH_GEAR_HOOK_SUNFISH = 17
 FISH_GEAR_HOOK_OARFISH = 18
+FISH_GEAR_HOOK_SPIDERCRAB = 19
+FISH_GEAR_HOOK_PUFFERFISH = 20
+FISH_GEAR_HOOK_TUNA = 21
+FISH_GEAR_HOOK_BINGBONG = 22
+FISH_GEAR_HOOK_ALBATROSS = 23
 
-FISH_GEAR_HIGHNUMBER = 18
+FISH_GEAR_HIGHNUMBER = 23
 
 TrueFishBosses = {
 	[7] = {
@@ -231,6 +236,71 @@ TrueFishBosses = {
 		reward = 4200,
 		mass = 200,
 	},
+	[19] = {
+		id = 13,
+		name = "Cangrejo Araña",
+		title = "TERROR DEL FONDO MARINO",
+		model = "models/fishing/fish_spidercrab.mdl",
+		hookModel = "models/fishing/hook_homemade.mdl",
+		gearName = "Anzuelo de Cangrejo Araña",
+		price = 350,
+		health = 280,
+		damage = 22,
+		reward = 1500,
+		mass = 50,
+	},
+	[20] = {
+		id = 14,
+		name = "Pez Globo Gigante",
+		title = "COLOSO ESPINOSO",
+		model = "models/fishing/fish_pufferfish.mdl",
+		hookModel = "models/fishing/hook_amateur.mdl",
+		gearName = "Anzuelo de Pez Globo",
+		price = 480,
+		health = 340,
+		damage = 24,
+		reward = 1900,
+		mass = 65,
+	},
+	[21] = {
+		id = 15,
+		name = "Atún Colosal",
+		title = "TORPEDO DE ALTA MAR",
+		model = "models/fishing/fish_tuna.mdl",
+		hookModel = "models/fishing/hook_quality.mdl",
+		gearName = "Anzuelo de Atún Colosal",
+		price = 520,
+		health = 370,
+		damage = 27,
+		reward = 2100,
+		mass = 90,
+	},
+	[22] = {
+		id = 16,
+		name = "Bing Bong",
+		title = "ENTIDAD ANOMALÍA SECRETA",
+		model = "models/fishing/fish_bingbong.mdl",
+		hookModel = "models/fishing/hook_scientific.mdl",
+		gearName = "Anzuelo de Bing Bong",
+		price = 1100,
+		health = 600,
+		damage = 38,
+		reward = 4500,
+		mass = 150,
+	},
+	[23] = {
+		id = 17,
+		name = "Albatros Gigante",
+		title = "SEÑOR DE LAS TORMENTAS",
+		model = "models/fishing/boss_albatross.mdl",
+		hookModel = "models/fishing/hook_professional.mdl",
+		gearName = "Anzuelo de Albatros",
+		price = 950,
+		health = 520,
+		damage = 36,
+		reward = 3800,
+		mass = 45,
+	},
 }
 
 local GearModels = {}
@@ -377,6 +447,11 @@ GEAR_PRICE = {
 [FISH_GEAR_HOOK_ANGLER] = 750,
 [FISH_GEAR_HOOK_SUNFISH] = 850,
 [FISH_GEAR_HOOK_OARFISH] = 1050,
+[FISH_GEAR_HOOK_SPIDERCRAB] = 350,
+[FISH_GEAR_HOOK_PUFFERFISH] = 480,
+[FISH_GEAR_HOOK_TUNA] = 520,
+[FISH_GEAR_HOOK_BINGBONG] = 1100,
+[FISH_GEAR_HOOK_ALBATROSS] = 950,
 },
 
 GEAR_ENABLED = {
@@ -398,6 +473,11 @@ GEAR_ENABLED = {
 [FISH_GEAR_HOOK_ANGLER] = true,
 [FISH_GEAR_HOOK_SUNFISH] = true,
 [FISH_GEAR_HOOK_OARFISH] = true,
+[FISH_GEAR_HOOK_SPIDERCRAB] = true,
+[FISH_GEAR_HOOK_PUFFERFISH] = true,
+[FISH_GEAR_HOOK_TUNA] = true,
+[FISH_GEAR_HOOK_BINGBONG] = true,
+[FISH_GEAR_HOOK_ALBATROSS] = true,
 },
 
 }

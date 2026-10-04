@@ -1,0 +1,1651 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_Name: DivingAlbatross
+  m_Legacy: false
+  m_Compressed: false
+  m_UseHighQualityCurve: true
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60.0
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    m_Extent:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  m_MuscleClipSize: 5304
+  m_MuscleClip:
+    m_DeltaPose:
+      m_RootX:
+        t:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+        q:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+          w: 1.0
+        s:
+          x: 1.0
+          y: 1.0
+          z: 1.0
+      m_LookAtPosition:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      m_LookAtWeight:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 0.0
+      m_GoalArray:
+      - m_X:
+          t:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          q:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 1.0
+          s:
+            x: 1.0
+            y: 1.0
+            z: 1.0
+        m_WeightT: 0.0
+        m_WeightR: 0.0
+        m_HintT:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+        m_HintWeightT: 0.0
+      - m_X:
+          t:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          q:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 1.0
+          s:
+            x: 1.0
+            y: 1.0
+            z: 1.0
+        m_WeightT: 0.0
+        m_WeightR: 0.0
+        m_HintT:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+        m_HintWeightT: 0.0
+      - m_X:
+          t:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          q:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 1.0
+          s:
+            x: 1.0
+            y: 1.0
+            z: 1.0
+        m_WeightT: 0.0
+        m_WeightR: 0.0
+        m_HintT:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+        m_HintWeightT: 0.0
+      - m_X:
+          t:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          q:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 1.0
+          s:
+            x: 1.0
+            y: 1.0
+            z: 1.0
+        m_WeightT: 0.0
+        m_WeightR: 0.0
+        m_HintT:
+          x: 0.0
+          y: 0.0
+          z: 0.0
+        m_HintWeightT: 0.0
+      m_LeftHandPose:
+        m_GrabX:
+          t:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          q:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 1.0
+          s:
+            x: 1.0
+            y: 1.0
+            z: 1.0
+        m_DoFArray:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        m_Override: 0.0
+        m_CloseOpen: 0.0
+        m_InOut: 0.0
+        m_Grab: 0.0
+      m_RightHandPose:
+        m_GrabX:
+          t:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+          q:
+            x: 0.0
+            y: 0.0
+            z: 0.0
+            w: 1.0
+          s:
+            x: 1.0
+            y: 1.0
+            z: 1.0
+        m_DoFArray:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        m_Override: 0.0
+        m_CloseOpen: 0.0
+        m_InOut: 0.0
+        m_Grab: 0.0
+      m_DoFArray:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      m_TDoFArray:
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+      - x: 0.0
+        y: 0.0
+        z: 0.0
+    m_StartX:
+      t:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      q:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+      s:
+        x: 1.0
+        y: 1.0
+        z: 1.0
+    m_StopX:
+      t:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      q:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+      s:
+        x: 1.0
+        y: 1.0
+        z: 1.0
+    m_LeftFootStartX:
+      t:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      q:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+      s:
+        x: 1.0
+        y: 1.0
+        z: 1.0
+    m_RightFootStartX:
+      t:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      q:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+      s:
+        x: 1.0
+        y: 1.0
+        z: 1.0
+    m_AverageSpeed:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    m_Clip:
+      data:
+        m_StreamedClip:
+          data:
+          - 4286578687
+          - 26
+          - 0
+          - 0
+          - 0
+          - 0
+          - 3181902315
+          - 1
+          - 0
+          - 0
+          - 0
+          - 1057899880
+          - 2
+          - 0
+          - 0
+          - 0
+          - 1039871134
+          - 3
+          - 0
+          - 0
+          - 0
+          - 1034418621
+          - 4
+          - 0
+          - 0
+          - 0
+          - 1057899879
+          - 5
+          - 0
+          - 0
+          - 0
+          - 1039871159
+          - 6
+          - 0
+          - 0
+          - 0
+          - 856762186
+          - 7
+          - 0
+          - 0
+          - 0
+          - 1065318026
+          - 8
+          - 0
+          - 0
+          - 0
+          - 3179582384
+          - 9
+          - 0
+          - 0
+          - 0
+          - 892502596
+          - 10
+          - 0
+          - 0
+          - 0
+          - 1031280711
+          - 11
+          - 0
+          - 0
+          - 0
+          - 985266218
+          - 12
+          - 0
+          - 0
+          - 0
+          - 3158703976
+          - 13
+          - 0
+          - 0
+          - 0
+          - 1065321168
+          - 14
+          - 0
+          - 0
+          - 0
+          - 1031280713
+          - 15
+          - 0
+          - 0
+          - 0
+          - 3132749708
+          - 16
+          - 0
+          - 0
+          - 0
+          - 1011220344
+          - 17
+          - 0
+          - 0
+          - 0
+          - 1065321168
+          - 18
+          - 0
+          - 0
+          - 0
+          - 1065270489
+          - 19
+          - 0
+          - 0
+          - 0
+          - 3020026525
+          - 20
+          - 0
+          - 0
+          - 0
+          - 891747884
+          - 21
+          - 0
+          - 0
+          - 0
+          - 1036722448
+          - 22
+          - 0
+          - 0
+          - 0
+          - 3161780769
+          - 23
+          - 0
+          - 0
+          - 0
+          - 3044226540
+          - 24
+          - 0
+          - 0
+          - 0
+          - 3094931081
+          - 25
+          - 0
+          - 0
+          - 0
+          - 1065351362
+          - 0
+          - 18
+          - 0
+          - 0
+          - 0
+          - 0
+          - 3181902315
+          - 1
+          - 1020610562
+          - 3123314689
+          - 1001798155
+          - 1057899880
+          - 2
+          - 3221021802
+          - 3175794044
+          - 995625870
+          - 1039871134
+          - 3
+          - 0
+          - 0
+          - 0
+          - 1034418621
+          - 4
+          - 991916166
+          - 3097487364
+          - 1001799435
+          - 1057899879
+          - 5
+          - 3221051048
+          - 3175770046
+          - 995625550
+          - 1039871159
+          - 6
+          - 2947689832
+          - 759610564
+          - 807318410
+          - 856762186
+          - 7
+          - 3066412793
+          - 874394347
+          - 3094347791
+          - 1065318026
+          - 8
+          - 3127529202
+          - 938719653
+          - 3127061262
+          - 3179582384
+          - 9
+          - 2991782661
+          - 803277100
+          - 2919694344
+          - 892502596
+          - 18
+          - 1012307413
+          - 3118723211
+          - 990806025
+          - 1065270489
+          - 19
+          - 817995859
+          - 2921013104
+          - 845822607
+          - 3020026525
+          - 20
+          - 2991472174
+          - 794394363
+          - 825645067
+          - 891747884
+          - 21
+          - 3138562399
+          - 950899792
+          - 3165824779
+          - 1036722448
+          - 22
+          - 1102611121
+          - 1061474012
+          - 3174543674
+          - 3161780769
+          - 23
+          - 3175710080
+          - 3134647053
+          - 952670356
+          - 3044226540
+          - 24
+          - 3226254581
+          - 3185205741
+          - 1003213915
+          - 3094931081
+          - 25
+          - 1053577735
+          - 1013681935
+          - 3126120421
+          - 1065351362
+          - 880803840
+          - 8
+          - 10
+          - 978513959
+          - 3084976156
+          - 981793416
+          - 1031280711
+          - 11
+          - 3075665959
+          - 887160860
+          - 3075347213
+          - 985266218
+          - 12
+          - 0
+          - 0
+          - 3049455628
+          - 3158703976
+          - 13
+          - 0
+          - 0
+          - 3095330832
+          - 1065321168
+          - 14
+          - 970125351
+          - 3076587548
+          - 981794376
+          - 1031280713
+          - 15
+          - 928182311
+          - 3034644508
+          - 927863565
+          - 3132749708
+          - 16
+          - 0
+          - 0
+          - 901971980
+          - 1011220344
+          - 17
+          - 0
+          - 0
+          - 3095330832
+          - 1065321168
+          - 1015580800
+          - 6
+          - 0
+          - 0
+          - 0
+          - 0
+          - 3181902315
+          - 1
+          - 0
+          - 0
+          - 0
+          - 1057901434
+          - 2
+          - 0
+          - 0
+          - 0
+          - 1039875435
+          - 3
+          - 0
+          - 0
+          - 0
+          - 1034418621
+          - 4
+          - 0
+          - 0
+          - 0
+          - 1057901434
+          - 5
+          - 0
+          - 0
+          - 0
+          - 1039875461
+          - 1015580928
+          - 20
+          - 6
+          - 0
+          - 0
+          - 0
+          - 856764895
+          - 7
+          - 0
+          - 0
+          - 0
+          - 1065318010
+          - 8
+          - 0
+          - 0
+          - 0
+          - 3179584322
+          - 9
+          - 0
+          - 0
+          - 0
+          - 892502588
+          - 10
+          - 0
+          - 0
+          - 0
+          - 1031285249
+          - 11
+          - 0
+          - 0
+          - 0
+          - 985264460
+          - 12
+          - 0
+          - 0
+          - 0
+          - 3158704002
+          - 13
+          - 0
+          - 0
+          - 0
+          - 1065321151
+          - 14
+          - 0
+          - 0
+          - 0
+          - 1031285252
+          - 15
+          - 0
+          - 0
+          - 0
+          - 3132747950
+          - 16
+          - 0
+          - 0
+          - 0
+          - 1011220370
+          - 17
+          - 0
+          - 0
+          - 0
+          - 1065321151
+          - 18
+          - 0
+          - 0
+          - 0
+          - 1065271096
+          - 19
+          - 0
+          - 0
+          - 0
+          - 3020010535
+          - 20
+          - 0
+          - 0
+          - 0
+          - 891748662
+          - 21
+          - 0
+          - 0
+          - 0
+          - 1036673665
+          - 22
+          - 0
+          - 0
+          - 0
+          - 3162239384
+          - 23
+          - 0
+          - 0
+          - 0
+          - 833234881
+          - 24
+          - 0
+          - 0
+          - 0
+          - 3017170982
+          - 25
+          - 0
+          - 0
+          - 0
+          - 1065351233
+          - 2139095040
+          - 0
+          curveCount: 26
+          discreteCurveCount: 0
+        m_DenseClip:
+          m_FrameCount: 3
+          m_CurveCount: 0
+          m_SampleRate: 60.0
+          m_BeginTime: 0.0
+          m_SampleArray: []
+        m_ConstantClip:
+          data:
+          - -2.518296504661066e-08
+          - 0.312869668006897
+          - 0.04071401059627533
+          - 5.790506962810582e-15
+          - 0.3150583803653717
+          - -4.729378347279045e-11
+          - 5.790506962810582e-15
+          - 0.3150583803653717
+          - -4.729378347279045e-11
+          - -1.9662138583953492e-09
+          - 1.2465646266937256
+          - -1.7316779121756554e-09
+          - 9.837687608982293e-11
+          - 0.3150583803653717
+          - -4.7293665511594085e-11
+          - -6.11407813266851e-10
+          - 1.246564507484436
+          - -8.87666828930378e-10
+          - 5.287437154777308e-15
+          - -9.778888809819364e-09
+          - 2.907286911213447e-11
+          - 1.9845236565174673e-15
+          - 0.37815770506858826
+          - -1.8626444830971423e-09
+          - 5.960464477539063e-08
+          - -10.0
+          - 0.6976544857025146
+          - 0.9979015588760376
+          - -3.284495952667922e-14
+          - 6.16029865341261e-07
+          - -0.06474924832582474
+          - 0.4573492705821991
+          - -0.47786903381347656
+          - 0.5325913429260254
+          - 0.528033435344696
+          - -0.10887257009744644
+          - -0.7356530427932739
+          - 0.15316861867904663
+          - 0.6507693529129028
+          - 0.4573501646518707
+          - 0.47786831855773926
+          - -0.5325908064842224
+          - 0.5280338525772095
+          - -0.10887237638235092
+          - 0.7356522083282471
+          - -0.15316878259181976
+          - 0.6507702469825745
+          - 1.0
+          - 1.0
+          - 1.0000004768371582
+          - 1.0
+          - 1.0000003576278687
+          - 1.0
+          - 0.9999997615814209
+          - 0.9999995827674866
+          - 0.9999998211860657
+          - 1.0
+          - 1.0000001192092896
+          - 1.0
+          - 0.9999998807907104
+          - 0.9999999403953552
+          - 1.0
+          - 1.0
+          - 0.9999999403953552
+          - 1.0000001192092896
+          - 1.0
+          - 1.0
+          - 0.9999999403953552
+          - 1.0
+          - 1.0
+          - 1.0
+          - 1.0
+          - 1.0
+          - 1.0000003576278687
+          - 1.0
+          - 1.0
+          - 1.0000001192092896
+          - 0.6299999952316284
+          - 0.6299999952316284
+          - 0.6299999952316284
+    m_StartTime: 0.0
+    m_StopTime: 0.016666889190673828
+    m_OrientationOffsetY: 0.0
+    m_Level: 0.0
+    m_CycleOffset: 0.0
+    m_AverageAngularSpeed: 0.0
+    m_IndexArray:
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    - -1
+    m_ValueArrayDelta:
+    - m_Start: -0.08201964944601059
+      m_Stop: -0.08201964944601059
+    - m_Start: 0.5557465553283691
+      m_Stop: 0.5558391809463501
+    - m_Start: 0.12264369428157806
+      m_Stop: 0.12267573922872543
+    - m_Start: 0.08201930671930313
+      m_Stop: 0.08201930671930313
+    - m_Start: 0.5557464957237244
+      m_Stop: 0.5558391809463501
+    - m_Start: 0.12264388054609299
+      m_Stop: 0.12267593294382095
+    - m_Start: 3.379617652399247e-08
+      m_Stop: 3.380580082534834e-08
+    - m_Start: 0.997902512550354
+      m_Stop: 0.9979015588760376
+    - m_Start: -0.0647348165512085
+      m_Stop: -0.06474925577640533
+    - m_Start: 6.649972874583909e-07
+      m_Stop: 6.6499683271104e-07
+    - m_Start: 0.06057002767920494
+      m_Stop: 0.06058693304657936
+    - m_Start: 0.0014188338536769152
+      m_Stop: 0.0014186291955411434
+    - m_Start: -0.012084819376468658
+      m_Stop: -0.012084843590855598
+    - m_Start: 0.9980897903442383
+      m_Stop: 0.9980887770652771
+    - m_Start: 0.06057003512978554
+      m_Stop: 0.060586944222450256
+    - m_Start: -0.0014188154600560665
+      m_Stop: -0.0014186108019202948
+    - m_Start: 0.012084834277629852
+      m_Stop: 0.012084858492016792
+    - m_Start: 0.9980897903442383
+      m_Stop: 0.9980887770652771
+    - m_Start: 0.9950690865516663
+      m_Stop: 0.9951052665710449
+    - m_Start: -1.210232341009032e-07
+      m_Stop: -1.2079600253400713e-07
+    - m_Start: 6.220968771231128e-07
+      m_Stop: 6.221411013029865e-07
+    - m_Start: 0.09918415546417236
+      m_Stop: 0.09882069379091263
+    - m_Start: -0.01495030615478754
+      m_Stop: -0.015377424657344818
+    - m_Start: -9.060302090801997e-07
+      m_Stop: 4.952170673533374e-09
+    - m_Start: -5.934251021244563e-05
+      m_Stop: -9.982640847283619e-08
+    - m_Start: 0.9998894929885864
+      m_Stop: 0.9998818039894104
+    - m_Start: -2.518296504661066e-08
+      m_Stop: -2.518296504661066e-08
+    - m_Start: 0.312869668006897
+      m_Stop: 0.312869668006897
+    - m_Start: 0.04071401059627533
+      m_Stop: 0.04071401059627533
+    - m_Start: 5.790506962810582e-15
+      m_Stop: 5.790506962810582e-15
+    - m_Start: 0.3150583803653717
+      m_Stop: 0.3150583803653717
+    - m_Start: -4.729378347279045e-11
+      m_Stop: -4.729378347279045e-11
+    - m_Start: 5.790506962810582e-15
+      m_Stop: 5.790506962810582e-15
+    - m_Start: 0.3150583803653717
+      m_Stop: 0.3150583803653717
+    - m_Start: -4.729378347279045e-11
+      m_Stop: -4.729378347279045e-11
+    - m_Start: -1.9662138583953492e-09
+      m_Stop: -1.9662138583953492e-09
+    - m_Start: 1.2465646266937256
+      m_Stop: 1.2465646266937256
+    - m_Start: -1.7316779121756554e-09
+      m_Stop: -1.7316779121756554e-09
+    - m_Start: 9.837687608982293e-11
+      m_Stop: 9.837687608982293e-11
+    - m_Start: 0.3150583803653717
+      m_Stop: 0.3150583803653717
+    - m_Start: -4.7293665511594085e-11
+      m_Stop: -4.7293665511594085e-11
+    - m_Start: -6.11407813266851e-10
+      m_Stop: -6.11407813266851e-10
+    - m_Start: 1.246564507484436
+      m_Stop: 1.246564507484436
+    - m_Start: -8.87666828930378e-10
+      m_Stop: -8.87666828930378e-10
+    - m_Start: 5.287437154777308e-15
+      m_Stop: 5.287437154777308e-15
+    - m_Start: -9.778888809819364e-09
+      m_Stop: -9.778888809819364e-09
+    - m_Start: 2.907286911213447e-11
+      m_Stop: 2.907286911213447e-11
+    - m_Start: 1.9845236565174673e-15
+      m_Stop: 1.9845236565174673e-15
+    - m_Start: 0.37815770506858826
+      m_Stop: 0.37815770506858826
+    - m_Start: -1.8626444830971423e-09
+      m_Stop: -1.8626444830971423e-09
+    - m_Start: 5.960464477539063e-08
+      m_Stop: 5.960464477539063e-08
+    - m_Start: -10.0
+      m_Stop: -10.0
+    - m_Start: 0.6976544857025146
+      m_Stop: 0.6976544857025146
+    - m_Start: 0.9979015588760376
+      m_Stop: 0.9979015588760376
+    - m_Start: -3.284495952667922e-14
+      m_Stop: -3.284495952667922e-14
+    - m_Start: 6.16029865341261e-07
+      m_Stop: 6.16029865341261e-07
+    - m_Start: -0.06474924832582474
+      m_Stop: -0.06474924832582474
+    - m_Start: 0.4573492705821991
+      m_Stop: 0.4573492705821991
+    - m_Start: -0.47786903381347656
+      m_Stop: -0.47786903381347656
+    - m_Start: 0.5325913429260254
+      m_Stop: 0.5325913429260254
+    - m_Start: 0.528033435344696
+      m_Stop: 0.528033435344696
+    - m_Start: -0.10887257009744644
+      m_Stop: -0.10887257009744644
+    - m_Start: -0.7356530427932739
+      m_Stop: -0.7356530427932739
+    - m_Start: 0.15316861867904663
+      m_Stop: 0.15316861867904663
+    - m_Start: 0.6507693529129028
+      m_Stop: 0.6507693529129028
+    - m_Start: 0.4573501646518707
+      m_Stop: 0.4573501646518707
+    - m_Start: 0.47786831855773926
+      m_Stop: 0.47786831855773926
+    - m_Start: -0.5325908064842224
+      m_Stop: -0.5325908064842224
+    - m_Start: 0.5280338525772095
+      m_Stop: 0.5280338525772095
+    - m_Start: -0.10887237638235092
+      m_Stop: -0.10887237638235092
+    - m_Start: 0.7356522083282471
+      m_Stop: 0.7356522083282471
+    - m_Start: -0.15316878259181976
+      m_Stop: -0.15316878259181976
+    - m_Start: 0.6507702469825745
+      m_Stop: 0.6507702469825745
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0000004768371582
+      m_Stop: 1.0000004768371582
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0000003576278687
+      m_Stop: 1.0000003576278687
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 0.9999997615814209
+      m_Stop: 0.9999997615814209
+    - m_Start: 0.9999995827674866
+      m_Stop: 0.9999995827674866
+    - m_Start: 0.9999998211860657
+      m_Stop: 0.9999998211860657
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0000001192092896
+      m_Stop: 1.0000001192092896
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 0.9999998807907104
+      m_Stop: 0.9999998807907104
+    - m_Start: 0.9999999403953552
+      m_Stop: 0.9999999403953552
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 0.9999999403953552
+      m_Stop: 0.9999999403953552
+    - m_Start: 1.0000001192092896
+      m_Stop: 1.0000001192092896
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 0.9999999403953552
+      m_Stop: 0.9999999403953552
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0000003576278687
+      m_Stop: 1.0000003576278687
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0
+      m_Stop: 1.0
+    - m_Start: 1.0000001192092896
+      m_Stop: 1.0000001192092896
+    - m_Start: 0.6299999952316284
+      m_Stop: 0.6299999952316284
+    - m_Start: 0.6299999952316284
+      m_Stop: 0.6299999952316284
+    - m_Start: 0.6299999952316284
+      m_Stop: 0.6299999952316284
+    m_ValueArrayReferencePose: []
+    m_Mirror: false
+    m_LoopTime: true
+    m_LoopBlend: false
+    m_LoopBlendOrientation: false
+    m_LoopBlendPositionY: false
+    m_LoopBlendPositionXZ: false
+    m_StartAtOrigin: true
+    m_KeepOriginalOrientation: false
+    m_KeepOriginalPositionY: true
+    m_KeepOriginalPositionXZ: false
+    m_HeightFromFeet: false
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 713876626
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3498301937
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2086040694
+      attribute: 2
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3906226091
+      attribute: 2
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 1993990955
+      attribute: 2
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2811377335
+      attribute: 2
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2490412660
+      attribute: 2
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3510082315
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2086040694
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3415915072
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3906226091
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 831883043
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 1993990955
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2811377335
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2490412660
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2835747520
+      attribute: 1
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3510082315
+      attribute: 2
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3415915072
+      attribute: 2
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 713876626
+      attribute: 2
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 831883043
+      attribute: 2
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3498301937
+      attribute: 2
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3510082315
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2086040694
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3415915072
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3906226091
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 713876626
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 831883043
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 1993990955
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 3498301937
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2811377335
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2490412660
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - path: 2835747520
+      attribute: 3
+      script:
+        m_FileID: 0
+        m_PathID: 0
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    pptrCurveMapping: []
+  m_HasGenericRootTransform: false
+  m_HasMotionFloatCurves: false
+  m_Events: []

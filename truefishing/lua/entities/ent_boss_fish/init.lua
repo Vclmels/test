@@ -177,6 +177,21 @@ function ENT:EnterSecondPhase()
 			local dir = (self.Target:GetPos() - self:GetPos()):GetNormalized()
 			phys:SetVelocity(dir * 550 + Vector(0, 0, 320))
 		end
+	elseif bossType == 19 then
+		-- Cangrejo Araña
+		self:SpiderCrabAttack()
+	elseif bossType == 20 then
+		-- Pez Globo Gigante
+		self:PufferSpikesBurst(10)
+	elseif bossType == 21 then
+		-- Atún Colosal
+		self:TunaTorpedoDash()
+	elseif bossType == 22 then
+		-- Bing Bong
+		self:BingBongGlitch()
+	elseif bossType == 23 then
+		-- Albatros Gigante
+		self:AlbatrossDiveBomb()
 	end
 end
 
@@ -342,6 +357,147 @@ function ENT:SpawnDamageSubFish(count)
 			util.Effect("BloodImpact", ed)
 		end
 	end
+end
+
+-- HABILIDAD DE CANGREJO ARAÑA: EMBESTIDA Y CRÍAS (bossType 19)
+function ENT:SpiderCrabAttack()
+	local phys = self:GetPhysicsObject()
+	if not IsValid(phys) then return end
+	local target = self.Target
+	local targetPos = (IsValid(target) and target:Alive()) and target:GetPos() or (self:GetPos() + self:GetForward() * 300)
+	local dir = (targetPos - self:GetPos()):GetNormalized()
+
+	phys:SetVelocity(dir * 580 + Vector(0, 0, 320))
+	self:EmitSound("npc/antlion/antlion_pounce" .. math.random(1, 2) .. ".wav", 90, 75)
+	util.ScreenShake(self:GetPos(), 6, 12, 1.2, 800)
+
+	if #self.SummonedMinions < 4 and math.random(100) <= 50 then
+		local spawnPos = self:GetPos() + VectorRand() * 40 + Vector(0, 0, 15)
+		local mini = ents.Create("ent_angry_fish")
+		if IsValid(mini) then
+			mini.FishModel = "models/fishing/fish_rockcrab.mdl"
+			mini.FishID = FISH_ROCKCRAB
+			mini:SetPos(spawnPos)
+			mini:SetAngles(self:GetAngles())
+			mini:Spawn()
+			mini:SetColor(Color(255, 120, 120))
+			mini.BossParent = self
+			if IsValid(target) then mini:SetAngryTarget(target) end
+			table.insert(self.SummonedMinions, mini)
+		end
+	end
+end
+
+-- HABILIDAD DE PEZ GLOBO GIGANTE: SALVA RADIAL DE PÚAS (bossType 20)
+function ENT:PufferSpikesBurst(count)
+	count = count or 8
+	self:EmitSound("ambient/water/water_splash" .. math.random(1, 3) .. ".wav", 95, 80)
+	self:EmitSound("npc/antlion/antlion_shoot1.wav", 95, 85)
+
+	local myPos = self:GetPos() + Vector(0, 0, 20)
+	local step = (2 * math.pi) / count
+	for i = 1, count do
+		local angle = (i - 1) * step
+		local dir = Vector(math.cos(angle), math.sin(angle), math.Rand(0.15, 0.45)):GetNormalized()
+
+		local spike = ents.Create("ent_whale_lava")
+		if IsValid(spike) then
+			spike:SetPos(myPos + dir * 30)
+			spike:SetAngles(dir:Angle())
+			spike.Owner = self
+			spike.Damage = math.floor(self.Damage * 0.9)
+			spike:Spawn()
+
+			spike:SetColor(Color(200, 255, 40, 255))
+			spike:SetMaterial("models/shiny")
+
+			local phys = spike:GetPhysicsObject()
+			if IsValid(phys) then
+				phys:SetVelocity(dir * math.Rand(500, 750) + Vector(0, 0, 100))
+			end
+		end
+	end
+end
+
+-- HABILIDAD DE ATÚN COLOSAL: TORPEDO DE ALTA MAR (bossType 21)
+function ENT:TunaTorpedoDash()
+	local phys = self:GetPhysicsObject()
+	if not IsValid(phys) then return end
+	local target = self.Target
+	local targetPos = (IsValid(target) and target:Alive()) and target:GetPos() or (self:GetPos() + self:GetForward() * 500)
+	local dir = (targetPos - self:GetPos()):GetNormalized()
+
+	phys:SetVelocity(dir * 880 + Vector(0, 0, 160))
+	self:EmitSound("ambient/water/water_splash" .. math.random(1, 3) .. ".wav", 95, 110)
+	self:EmitSound("npc/fast_zombie/wake1.wav", 90, 90)
+
+	local ed = EffectData()
+	ed:SetOrigin(self:GetPos())
+	ed:SetScale(3.0)
+	util.Effect("watersplash", ed)
+end
+
+-- HABILIDAD DE BING BONG: TELETRANSPORTE Y FALLA DIMENSIONAL (bossType 22)
+function ENT:BingBongGlitch()
+	local target = self.Target
+	local targetPos = (IsValid(target) and target:Alive()) and target:GetPos() or self:GetPos()
+
+	local ed = EffectData()
+	ed:SetOrigin(self:GetPos())
+	ed:SetScale(2.5)
+	util.Effect("cball_explode", ed)
+	self:EmitSound("ambient/energy/zap" .. math.random(1, 3) .. ".wav", 95, 115)
+	self:EmitSound("ambient/levels/citadel/strange_talk" .. math.random(1, 2) .. ".wav", 90, 100)
+
+	local randomOffset = Vector(math.Rand(-180, 180), math.Rand(-180, 180), math.Rand(30, 90))
+	local newPos = targetPos + randomOffset
+	self:SetPos(newPos)
+
+	local phys = self:GetPhysicsObject()
+	if IsValid(phys) then
+		phys:Wake()
+		local dir = (targetPos - newPos):GetNormalized()
+		phys:SetVelocity(dir * 500 + Vector(0, 0, 120))
+	end
+
+	local ed2 = EffectData()
+	ed2:SetOrigin(newPos)
+	ed2:SetScale(2.5)
+	util.Effect("cball_explode", ed2)
+	util.ScreenShake(newPos, 7, 14, 1.2, 700)
+end
+
+-- HABILIDAD DE ALBATROS GIGANTE: PICADO AÉREO LETAL (bossType 23)
+function ENT:AlbatrossDiveBomb()
+	local phys = self:GetPhysicsObject()
+	if not IsValid(phys) then return end
+
+	self:SetIsFlying(true)
+	phys:Wake()
+
+	phys:SetVelocity(Vector(0, 0, 680) + self:GetForward() * 250)
+	self:EmitSound("npc/antlion/antlion_growl" .. math.random(1, 2) .. ".wav", 95, 130)
+	self:EmitSound("ambient/wind/wind_hit1.wav", 90, 80)
+
+	timer.Simple(1.2, function()
+		if not IsValid(self) or self.IsDead then return end
+		local p = self:GetPhysicsObject()
+		if not IsValid(p) then return end
+
+		local target = self.Target
+		local targetPos = (IsValid(target) and target:Alive()) and target:GetPos() or (self:GetPos() - Vector(0, 0, 300))
+		local diveDir = (targetPos - self:GetPos()):GetNormalized()
+
+		p:SetVelocity(diveDir * 920 + Vector(0, 0, -200))
+		self:EmitSound("ambient/wind/wind_hit2.wav", 95, 100)
+		self:EmitSound("npc/antlion/antlion_pounce1.wav", 95, 110)
+
+		timer.Simple(1.5, function()
+			if IsValid(self) then
+				self:SetIsFlying(false)
+			end
+		end)
+	end)
 end
 
 -- SECUENCIA DE MUERTE CINEMÁTICA CON TROFEO Y EXPLOSIÓN (Reverse Engineering: BossManager::BossExplosion / OnDeath)
@@ -593,8 +749,28 @@ function ENT:Think()
 				-- Piraña: invocar esbirros periódicos
 				self.NextSpecialAttack = ctime + math.Rand(4.0, 6.5)
 				self:SpawnSummons(math.random(2, 3))
+			elseif bossType == 19 then
+				-- Cangrejo Araña: salto pesado y posibles crías
+				self.NextSpecialAttack = ctime + math.Rand(3.0, 5.0)
+				self:SpiderCrabAttack()
+			elseif bossType == 20 then
+				-- Pez Globo: salva radial de púas
+				self.NextSpecialAttack = ctime + math.Rand(3.5, 5.5)
+				self:PufferSpikesBurst(math.random(8, 12))
+			elseif bossType == 21 then
+				-- Atún Colosal: torpedo dash supersónico
+				self.NextSpecialAttack = ctime + math.Rand(2.5, 4.0)
+				self:TunaTorpedoDash()
+			elseif bossType == 22 then
+				-- Bing Bong: teletransporte anómalo y distorsión
+				self.NextSpecialAttack = ctime + math.Rand(3.0, 5.0)
+				self:BingBongGlitch()
+			elseif bossType == 23 then
+				-- Albatros: picado aéreo
+				self.NextSpecialAttack = ctime + math.Rand(4.0, 6.0)
+				self:AlbatrossDiveBomb()
 			else
-				-- Gammelgäddan / Tiburón Duende: embestida de velocidad extrema
+				-- Gammelgäddan / Tiburón Duende / Otros: embestida de velocidad extrema
 				self.NextSpecialAttack = ctime + math.Rand(2.5, 4.0)
 				if IsValid(phys) then
 					local dashDir = (targetPos - myPos):GetNormalized()
