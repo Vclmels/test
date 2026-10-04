@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/fishing/Colors"
+	"$bumpmap" "models/fishing/DefaultNormal"
+	"$phong" "1"
+	"$phongexponent" "16"
+	"$phongboost" "0.3"
+}

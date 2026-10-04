@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/truefishing/caja_tapa_albedo"
+	$surfaceprop "wood"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/fishing/cast_hands"
+    "$phong" "1"
+    "$phongexponent" "20"
+    "$phongboost" "0.2"
+}
